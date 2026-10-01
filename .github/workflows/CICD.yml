@@ -65,7 +65,7 @@ jobs:
         host: ${{ secrets.SERVER_HOST }}
         username: ${{ secrets.SERVER_USER }}
         password: ${{ secrets.SERVER_SSH_PASSWORD }}
-        port: ${{ secrets.SERVER_PORT }}
+        port: ${{ secrets.SERVER_PORT }} 
         script: |
           rm -rf "${{ env.TARGET_PATH }}/wp-content/plugins" "${{ env.TARGET_PATH }}/wp-content/mu-plugins" "${{ env.TARGET_PATH }}/wp-content/themes"
           unzip -o "${{ env.TARGET_PATH }}/wpcontent.zip" -d "${{ env.TARGET_PATH }}/wp-content/"
