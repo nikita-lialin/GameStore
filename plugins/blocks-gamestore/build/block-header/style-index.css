@@ -159,6 +159,7 @@
     display: flex;
     align-items: flex-end;
     gap: 48px;
+    position: static;
   }
   .wp-block-group .wp-block-navigation {
     margin-top: 0;
