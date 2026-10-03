@@ -11,7 +11,7 @@
   "supports": {
     "html": false
   },
-  "textdomain": "block-contact",
+  "textdomain": "blocks-gamestore",
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
   "style": "file:./style-index.css",
