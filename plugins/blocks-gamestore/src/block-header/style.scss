@@ -113,6 +113,7 @@
 			flex-direction: row;
 			align-items: center;
 			justify-content: space-between;
+			padding: 0;
 
 			.wp-block-navigation__responsive-container-open {
 				width: 36px;
@@ -131,10 +132,13 @@
 			.wp-block-site-logo {
 				max-width: 140px;
 				z-index: 1000001;
+				margin: 0 !important;
 			}
 
 			.wp-block-navigation {
 				margin-top: 0;
+				margin-left: 0 !important;
+				margin-right: 0 !important;
 			}
 		}
 
